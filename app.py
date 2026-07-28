@@ -73,7 +73,7 @@ def db_insert():
             ('Stephen', 'Curry', 'San Francisco', 'Warriors', 30),
             ('Nikola', 'Jokic', 'Denver', 'Nuggets', 15),
             ('Kawhi', 'Leonard', 'Los Angeles', 'Clippers', 2),
-            ('Bri', 'Student', 'CU Boulder', 'Buffs', 3308);
+            ('Bri', 'Rowe', 'CU Boulder', 'Buffs', 3308);
         """)
         conn.commit()
         return "Basketball Table Populated"
